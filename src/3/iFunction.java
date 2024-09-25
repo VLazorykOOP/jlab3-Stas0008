@@ -4,5 +4,7 @@
 // (гіпербола) з власними функціями обчислення значення і друку.
 
 public interface iFunction {
-    
+    public double calculate(double x);
+
+    public void result(double x);
 }
